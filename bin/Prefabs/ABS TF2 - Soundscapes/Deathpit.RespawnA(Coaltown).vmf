@@ -1,0 +1,66 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6264"
+	"mapversion" "317"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "124715"
+	"mapversion" "317"
+	"classname" "worldspawn"
+	"skyname" "sky_tf2_04"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail_2fort.vbsp"
+	"detailmaterial" "detail/detailsprites_2fort"
+	group
+	{
+		"id" "124716"
+		editor
+		{
+			"color" "209 134 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "124717"
+	"classname" "info_target"
+	"angles" "0 0 0"
+	"spawnflags" "0"
+	"targetname" "ss_DP_rspA_&i_pos1"
+	"origin" "16 0 24"
+	editor
+	{
+		"color" "209 134 0"
+		"groupid" "124716"
+		"visgroupid" "16"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "ambient/computer_working.wav"
+		"logicalpos" "[0 -9768]"
+	}
+}
+entity
+{
+	"id" "124719"
+	"classname" "env_soundscape"
+	"position1" "ss_DP_rspA_&i_pos1"
+	"radius" "-1"
+	"soundscape" "Deathpit.RespawnA"
+	"targetname" "ss_DP_rspA_&i"
+	"origin" "0 0 8"
+	editor
+	{
+		"color" "209 134 0"
+		"groupid" "124716"
+		"visgroupid" "16"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -10268]"
+	}
+}
