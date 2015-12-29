@@ -1,5 +1,5 @@
 # Unofficial ABS' Resource Pack Repository
-This is a repo for putting changes to [ABS' resource pack](http://tf2maps.net/thread/4674) in the time it takes for ABS to update it.
+This is a repo for putting changes to [ABS' resource pack](http://tf2maps.net/thread/4674) in the time it takes for ABS to update it. This is not yet blessed by ABS, please don't send me to jail.
 
 # Installing
 This is assuming you have Hammer set up and have run it at least once, using the shortcut you got when you downloaded TF2.
