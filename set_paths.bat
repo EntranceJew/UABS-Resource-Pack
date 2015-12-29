@@ -1,0 +1,1 @@
+powershell -Command "(gc bin\GameConfig.txt) -replace '\$TF2_PATH', (Get-Item -Path '.\' -Verbose).FullName | Out-File -encoding UTF8 bin\GameConfig.txt"
