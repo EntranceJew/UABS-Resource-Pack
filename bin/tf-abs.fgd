@@ -1442,3 +1442,19 @@
 @PointClass iconsprite("editor-abs/tf_logic_multiple_escort") = tf_logic_multiple_escort : "Activates multiple escort mode."
 [
 ]
+
+@FilterClass base(BaseFilter) iconsprite("editor/filter_team.vmt") = filter_tf_class : "A filter that filters for the class of a player."
+[
+	tfclass(choices) : "Player Class" : 1 : "The Class to filter by." =
+	[
+		1 : "Scout"
+		2 : "Sniper"
+		3 : "Soldier"
+		4 : "Demoman"
+		5 : "Medic"
+		6 : "Heavy"
+		7 : "Pyro"
+		8 : "Spy"
+		9 : "Engineer"
+	]
+]
