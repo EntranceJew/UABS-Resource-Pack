@@ -1458,3 +1458,21 @@
 		9 : "Engineer"
 	]
 ]
+
+@PointClass base(Targetname,Parentname,Angles) studio("models/bots/headless_hatman.mdl") = headless_hatman : "It's the Horseless Headless Horseman! A NPC Boss enemy. Requires a Navigation Mesh to work."
+[
+]
+
+@PointClass base(Targetname,Parentname,Angles) studio("models/props_halloween/halloween_demoeye.mdl") = eyeball_boss : "Invokum MONOCOLUS! A NPC Boss enemy. DOES NOT require a Navigation Mesh to work."
+[
+	teamnum(choices) : "Team" : 0 : "The team that Monocolus should be on. He is invincible on RED and BLU and will disappear after a few seconds." =
+	[
+		0 : "Blu"
+		2 : "Red"
+		5 : "Neutral"
+	]
+]
+
+@PointClass base(Targetname,Parentname,Angles) studio("models/bots/merasmus/merasmus.mdl") = merasmus : "Feel the terror of BOOKS! A NPC Boss enemy. May require a Navigation Mesh to work."
+[
+]
